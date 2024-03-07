@@ -16,5 +16,10 @@ namespace N09110016
         {
             InitializeComponent();
         }
+
+        private void btnButton_Click(object sender, EventArgs e)
+        {
+            btnButton.Text = "我已經被按過了";
+        }
     }
 }
