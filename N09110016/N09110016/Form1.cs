@@ -19,7 +19,10 @@ namespace N09110016
 
         private void btnButton_Click(object sender, EventArgs e)
         {
-            btnButton.Text = "我已經被按過了";
+            if (btnButton.Text == "按鈕")
+                btnButton.Text = "我已經被按過了";
+            else if (btnButton.Text == "我已經被按過了")
+                btnButton.Text = "按鈕";
         }
     }
 }
