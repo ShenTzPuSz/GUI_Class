@@ -34,6 +34,7 @@
             this.btnReduce = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.label_Add = new System.Windows.Forms.Label();
+            this.btnEnlarge = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnButton
@@ -76,7 +77,6 @@
             this.btnReduce.TabIndex = 3;
             this.btnReduce.Text = "-1";
             this.btnReduce.UseVisualStyleBackColor = true;
-            this.btnReduce.Click += new System.EventHandler(this.btnReduce_Click);
             // 
             // btnAdd
             // 
@@ -99,11 +99,23 @@
             this.label_Add.TabIndex = 5;
             this.label_Add.Text = "0";
             // 
+            // btnEnlarge
+            // 
+            this.btnEnlarge.Font = new System.Drawing.Font("標楷體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnEnlarge.Location = new System.Drawing.Point(12, 113);
+            this.btnEnlarge.Name = "btnEnlarge";
+            this.btnEnlarge.Size = new System.Drawing.Size(80, 39);
+            this.btnEnlarge.TabIndex = 6;
+            this.btnEnlarge.Text = "點我";
+            this.btnEnlarge.UseVisualStyleBackColor = true;
+            this.btnEnlarge.Click += new System.EventHandler(this.btnEnlarge_Click);
+            // 
             // FormButton
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnEnlarge);
             this.Controls.Add(this.label_Add);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnReduce);
@@ -125,5 +137,6 @@
         private System.Windows.Forms.Button btnReduce;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Label label_Add;
+        private System.Windows.Forms.Button btnEnlarge;
     }
 }
