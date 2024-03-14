@@ -31,5 +31,19 @@ namespace N09110016
         {
             label1.Text = "按鈕被按過了";
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            String count = label_Add.Text;
+            int sum = Int32.Parse(count)+1;
+            label_Add.Text = sum.ToString();
+        }
+
+        private void btnReduce_Click(object sender, EventArgs e)
+        {
+            String count = label_Add.Text;
+            int sum = Int32.Parse(count)-1;
+            label_Add.Text = sum.ToString();
+        }
     }
 }
