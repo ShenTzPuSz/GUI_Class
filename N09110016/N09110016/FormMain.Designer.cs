@@ -40,7 +40,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("標楷體", 20.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label1.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(12, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 27);
             this.label1.TabIndex = 1;
@@ -51,7 +51,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label2.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.label2.Location = new System.Drawing.Point(12, 36);
+            this.label2.Location = new System.Drawing.Point(14, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 24);
             this.label2.TabIndex = 2;
@@ -62,7 +62,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("標楷體", 26.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label3.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.label3.Location = new System.Drawing.Point(12, 61);
+            this.label3.Location = new System.Drawing.Point(12, 67);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(123, 35);
             this.label3.TabIndex = 3;
@@ -73,7 +73,7 @@
             this.btnButton.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnButton.Location = new System.Drawing.Point(136, 12);
             this.btnButton.Name = "btnButton";
-            this.btnButton.Size = new System.Drawing.Size(118, 89);
+            this.btnButton.Size = new System.Drawing.Size(120, 90);
             this.btnButton.TabIndex = 0;
             this.btnButton.Text = "按鈕";
             this.btnButton.UseVisualStyleBackColor = true;
@@ -82,9 +82,9 @@
             // btnBMI
             // 
             this.btnBMI.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnBMI.Location = new System.Drawing.Point(260, 12);
+            this.btnBMI.Location = new System.Drawing.Point(262, 12);
             this.btnBMI.Name = "btnBMI";
-            this.btnBMI.Size = new System.Drawing.Size(118, 89);
+            this.btnBMI.Size = new System.Drawing.Size(120, 90);
             this.btnBMI.TabIndex = 4;
             this.btnBMI.Text = "BMI計算";
             this.btnBMI.UseVisualStyleBackColor = true;

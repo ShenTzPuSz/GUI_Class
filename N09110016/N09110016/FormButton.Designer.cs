@@ -51,7 +51,7 @@
             // btnLabel
             // 
             this.btnLabel.Font = new System.Drawing.Font("標楷體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnLabel.Location = new System.Drawing.Point(328, 53);
+            this.btnLabel.Location = new System.Drawing.Point(376, 53);
             this.btnLabel.Name = "btnLabel";
             this.btnLabel.Size = new System.Drawing.Size(80, 39);
             this.btnLabel.TabIndex = 1;
@@ -77,6 +77,7 @@
             this.btnReduce.TabIndex = 3;
             this.btnReduce.Text = "-1";
             this.btnReduce.UseVisualStyleBackColor = true;
+            this.btnReduce.Click += new System.EventHandler(this.btnReduce_Click);
             // 
             // btnAdd
             // 
