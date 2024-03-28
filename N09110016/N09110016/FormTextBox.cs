@@ -10,24 +10,21 @@ using System.Windows.Forms;
 
 namespace N09110016
 {
-    public partial class FormMain : Form
+    public partial class FormTextBox : Form
     {
-        public FormMain()
+        public FormTextBox()
         {
             InitializeComponent();
         }
 
-        private void btnButton_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            Form form = new FormButton();
-            form.Show(this);
-
+            MessageBox.Show("Text Box 被改變了");
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnInput_Click(object sender, EventArgs e)
         {
-            Form form = new FormTextBox();
-            form.Show(this);
+            label1.Text = tbInput.Text;
         }
     }
 }
