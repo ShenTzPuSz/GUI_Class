@@ -3,6 +3,6 @@ git add .
 git config --global user.email "bobo3128tw@yahoo.com.tw"
 git config --global user.name "ShenTzPuSz"
 
-git commit –m "First Commit"
+git commit -m "First Commit"
 
 git push -u origin main
