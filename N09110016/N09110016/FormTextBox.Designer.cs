@@ -311,6 +311,7 @@
             this.btnMultiply.TabIndex = 27;
             this.btnMultiply.Text = "計算";
             this.btnMultiply.UseVisualStyleBackColor = true;
+            this.btnMultiply.Click += new System.EventHandler(this.btnMultiply_Click);
             // 
             // btnDivide
             // 
@@ -321,6 +322,7 @@
             this.btnDivide.TabIndex = 28;
             this.btnDivide.Text = "計算";
             this.btnDivide.UseVisualStyleBackColor = true;
+            this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
             // 
             // FormTextBox
             // 

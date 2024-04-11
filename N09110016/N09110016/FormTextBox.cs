@@ -58,7 +58,41 @@ namespace N09110016
                 reduce1=0;
                 reduce2=0;
             }
-            lbAdd.Text = (reduce1+reduce2).ToString();
+            lbAdd.Text = (reduce1-reduce2).ToString();
+        }
+
+        private void btnMultiply_Click(object sender, EventArgs e)
+        {
+            int multiply1, multiply2;
+            try
+            {
+                multiply1 = Int32.Parse(tbMultiply1.Text);
+                multiply2 = Int32.Parse(tbMultiply2.Text);
+            }
+            catch
+            {
+                MessageBox.Show("請輸入數字");
+                multiply1=0;
+                multiply2=0;
+            }
+            lbAdd.Text = (multiply1*multiply2).ToString();
+        }
+
+        private void btnDivide_Click(object sender, EventArgs e)
+        {
+            int divide1, divide2;
+            try
+            {
+                divide1 = Int32.Parse(tbDivide1.Text);
+                divide2 = Int32.Parse(tbDivide2.Text);
+            }
+            catch
+            {
+                MessageBox.Show("請輸入數字");
+                divide1=0;
+                divide2=0;
+            }
+            lbAdd.Text = (divide1/divide2).ToString();
         }
     }
 }
