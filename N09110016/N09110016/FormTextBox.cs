@@ -58,7 +58,7 @@ namespace N09110016
                 reduce1=0;
                 reduce2=0;
             }
-            lbAdd.Text = (reduce1-reduce2).ToString();
+            lbReduce.Text = (reduce1-reduce2).ToString();
         }
 
         private void btnMultiply_Click(object sender, EventArgs e)
@@ -75,7 +75,7 @@ namespace N09110016
                 multiply1=0;
                 multiply2=0;
             }
-            lbAdd.Text = (multiply1*multiply2).ToString();
+            lbMultiply.Text = (multiply1*multiply2).ToString();
         }
 
         private void btnDivide_Click(object sender, EventArgs e)
@@ -92,7 +92,8 @@ namespace N09110016
                 divide1=0;
                 divide2=0;
             }
-            lbAdd.Text = (divide1/divide2).ToString();
+            lbDivide.Text = (divide1/divide2).ToString();
         }
+
     }
 }

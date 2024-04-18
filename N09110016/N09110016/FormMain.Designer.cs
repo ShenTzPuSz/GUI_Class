@@ -33,7 +33,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnButton = new System.Windows.Forms.Button();
             this.btnBMI = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnTextBox = new System.Windows.Forms.Button();
+            this.btnMidterm = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -90,23 +91,35 @@
             this.btnBMI.Text = "BMI計算";
             this.btnBMI.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnTextBox
             // 
-            this.button1.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.Location = new System.Drawing.Point(262, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 90);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "輸入框";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnTextBox.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnTextBox.Location = new System.Drawing.Point(262, 12);
+            this.btnTextBox.Name = "btnTextBox";
+            this.btnTextBox.Size = new System.Drawing.Size(120, 90);
+            this.btnTextBox.TabIndex = 5;
+            this.btnTextBox.Text = "輸入框";
+            this.btnTextBox.UseVisualStyleBackColor = true;
+            this.btnTextBox.Click += new System.EventHandler(this.btnTextBox_Click);
+            // 
+            // btnMidterm
+            // 
+            this.btnMidterm.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnMidterm.Location = new System.Drawing.Point(388, 12);
+            this.btnMidterm.Name = "btnMidterm";
+            this.btnMidterm.Size = new System.Drawing.Size(120, 90);
+            this.btnMidterm.TabIndex = 6;
+            this.btnMidterm.Text = "期中";
+            this.btnMidterm.UseVisualStyleBackColor = true;
+            this.btnMidterm.Click += new System.EventHandler(this.btnMidterm_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnMidterm);
+            this.Controls.Add(this.btnTextBox);
             this.Controls.Add(this.btnBMI);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -125,7 +138,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnButton;
         private System.Windows.Forms.Button btnBMI;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnTextBox;
+        private System.Windows.Forms.Button btnMidterm;
     }
 }
 

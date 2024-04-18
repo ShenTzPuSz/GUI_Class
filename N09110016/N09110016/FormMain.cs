@@ -24,9 +24,15 @@ namespace N09110016
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnTextBox_Click(object sender, EventArgs e)
         {
             Form form = new FormTextBox();
+            form.Show(this);
+        }
+
+        private void btnMidterm_Click(object sender, EventArgs e)
+        {
+            Form form = new FormMidterm();
             form.Show(this);
         }
     }

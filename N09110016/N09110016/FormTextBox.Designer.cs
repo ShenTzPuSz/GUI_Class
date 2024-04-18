@@ -110,7 +110,7 @@
             // tbAdd1
             // 
             this.tbAdd1.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tbAdd1.Location = new System.Drawing.Point(344, 39);
+            this.tbAdd1.Location = new System.Drawing.Point(330, 39);
             this.tbAdd1.Name = "tbAdd1";
             this.tbAdd1.Size = new System.Drawing.Size(100, 36);
             this.tbAdd1.TabIndex = 5;
@@ -127,11 +127,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("標楷體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.Location = new System.Drawing.Point(450, 42);
+            this.label2.Location = new System.Drawing.Point(436, 42);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(26, 27);
+            this.label2.Size = new System.Drawing.Size(40, 27);
             this.label2.TabIndex = 7;
-            this.label2.Text = "+";
+            this.label2.Text = "＋";
             // 
             // label3
             // 
@@ -156,7 +156,7 @@
             // tbReduce1
             // 
             this.tbReduce1.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tbReduce1.Location = new System.Drawing.Point(344, 96);
+            this.tbReduce1.Location = new System.Drawing.Point(330, 96);
             this.tbReduce1.Name = "tbReduce1";
             this.tbReduce1.Size = new System.Drawing.Size(100, 36);
             this.tbReduce1.TabIndex = 10;
@@ -164,7 +164,7 @@
             // tbMultiply1
             // 
             this.tbMultiply1.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tbMultiply1.Location = new System.Drawing.Point(344, 157);
+            this.tbMultiply1.Location = new System.Drawing.Point(330, 157);
             this.tbMultiply1.Name = "tbMultiply1";
             this.tbMultiply1.Size = new System.Drawing.Size(100, 36);
             this.tbMultiply1.TabIndex = 11;
@@ -172,7 +172,7 @@
             // tbDivide1
             // 
             this.tbDivide1.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tbDivide1.Location = new System.Drawing.Point(344, 218);
+            this.tbDivide1.Location = new System.Drawing.Point(330, 218);
             this.tbDivide1.Name = "tbDivide1";
             this.tbDivide1.Size = new System.Drawing.Size(100, 36);
             this.tbDivide1.TabIndex = 12;
@@ -205,31 +205,31 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("標楷體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label4.Location = new System.Drawing.Point(450, 105);
+            this.label4.Location = new System.Drawing.Point(436, 102);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(26, 27);
+            this.label4.Size = new System.Drawing.Size(40, 27);
             this.label4.TabIndex = 17;
-            this.label4.Text = "-";
+            this.label4.Text = "－";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("標楷體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label5.Location = new System.Drawing.Point(450, 166);
+            this.label5.Location = new System.Drawing.Point(446, 166);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(26, 27);
             this.label5.TabIndex = 18;
-            this.label5.Text = "x";
+            this.label5.Text = "×";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("標楷體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label6.Location = new System.Drawing.Point(450, 227);
+            this.label6.Location = new System.Drawing.Point(446, 227);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(26, 27);
             this.label6.TabIndex = 19;
-            this.label6.Text = "/";
+            this.label6.Text = "÷";
             // 
             // label7
             // 
