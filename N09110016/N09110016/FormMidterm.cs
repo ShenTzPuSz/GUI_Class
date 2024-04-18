@@ -24,13 +24,11 @@ namespace N09110016
             try
             {
                 c = Int32.Parse(tbC.Text);
-               
             }
             catch
             {
                 MessageBox.Show("請輸入數字");
                 c=0;
-                
             }
             double f = c*1.8 + 32;
             lbF.Text = f.ToString();
