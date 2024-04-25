@@ -70,6 +70,12 @@
     <Compile Include="FormTextBox.Designer.cs">
       <DependentUpon>FormTextBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTryCatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTryCatch.Designer.cs">
+      <DependentUpon>FormTryCatch.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormButton.resx">

@@ -35,5 +35,10 @@ namespace N09110016
             Form form = new FormMidterm();
             form.Show(this);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

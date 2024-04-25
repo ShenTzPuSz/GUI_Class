@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -85,6 +86,16 @@ namespace N09110016
             {
                 divide1 = Int32.Parse(tbDivide1.Text);
                 divide2 = Int32.Parse(tbDivide2.Text);
+                if (divide2 == 0)
+                {
+                    MessageBox.Show("分母不可為0");
+                    return;
+                }
+                else
+                {
+                    double a = divide1 / divide2;
+                    lbF.Text = f.ToString();
+                }
             }
             catch
             {
@@ -92,7 +103,7 @@ namespace N09110016
                 divide1=0;
                 divide2=0;
             }
-            lbDivide.Text = (divide1/divide2).ToString();
+
         }
 
     }
