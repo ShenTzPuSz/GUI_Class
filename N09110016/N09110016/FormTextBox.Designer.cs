@@ -255,7 +255,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("標楷體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label9.Location = new System.Drawing.Point(588, 218);
+            this.label9.Location = new System.Drawing.Point(325, 268);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(26, 27);
             this.label9.TabIndex = 22;
@@ -285,7 +285,7 @@
             // 
             this.lbDivide.AutoSize = true;
             this.lbDivide.Font = new System.Drawing.Font("標楷體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.lbDivide.Location = new System.Drawing.Point(620, 218);
+            this.lbDivide.Location = new System.Drawing.Point(357, 268);
             this.lbDivide.Name = "lbDivide";
             this.lbDivide.Size = new System.Drawing.Size(26, 27);
             this.lbDivide.TabIndex = 25;
@@ -316,7 +316,7 @@
             // btnDivide
             // 
             this.btnDivide.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnDivide.Location = new System.Drawing.Point(663, 215);
+            this.btnDivide.Location = new System.Drawing.Point(625, 215);
             this.btnDivide.Name = "btnDivide";
             this.btnDivide.Size = new System.Drawing.Size(92, 36);
             this.btnDivide.TabIndex = 28;

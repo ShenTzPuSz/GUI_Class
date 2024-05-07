@@ -35,7 +35,7 @@
             this.btnBMI = new System.Windows.Forms.Button();
             this.btnTextBox = new System.Windows.Forms.Button();
             this.btnMidterm = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnTryCatch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -114,22 +114,23 @@
             this.btnMidterm.UseVisualStyleBackColor = true;
             this.btnMidterm.Click += new System.EventHandler(this.btnMidterm_Click);
             // 
-            // button1
+            // btnTryCatch
             // 
-            this.button1.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.Location = new System.Drawing.Point(514, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 90);
-            this.button1.TabIndex = 7;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnTryCatch.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnTryCatch.Location = new System.Drawing.Point(514, 12);
+            this.btnTryCatch.Name = "btnTryCatch";
+            this.btnTryCatch.Size = new System.Drawing.Size(120, 90);
+            this.btnTryCatch.TabIndex = 7;
+            this.btnTryCatch.Text = "TryCatch";
+            this.btnTryCatch.UseVisualStyleBackColor = true;
+            this.btnTryCatch.Click += new System.EventHandler(this.btnTryCatch_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnTryCatch);
             this.Controls.Add(this.btnMidterm);
             this.Controls.Add(this.btnTextBox);
             this.Controls.Add(this.btnBMI);
@@ -152,7 +153,7 @@
         private System.Windows.Forms.Button btnBMI;
         private System.Windows.Forms.Button btnTextBox;
         private System.Windows.Forms.Button btnMidterm;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnTryCatch;
     }
 }
 

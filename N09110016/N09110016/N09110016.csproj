@@ -90,6 +90,9 @@
     <EmbeddedResource Include="FormTextBox.resx">
       <DependentUpon>FormTextBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormTryCatch.resx">
+      <DependentUpon>FormTryCatch.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

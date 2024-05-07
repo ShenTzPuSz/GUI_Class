@@ -81,27 +81,22 @@ namespace N09110016
 
         private void btnDivide_Click(object sender, EventArgs e)
         {
-            int divide1, divide2;
-            try
+            if (double.TryParse(tbDivide1.Text, out double numerator) && double.TryParse(tbDivide2.Text, out double denominator))
             {
-                divide1 = Int32.Parse(tbDivide1.Text);
-                divide2 = Int32.Parse(tbDivide2.Text);
-                if (divide2 == 0)
+                
+                if (denominator != 0)
                 {
-                    MessageBox.Show("分母不可為0");
-                    return;
+                    double a = numerator / denominator;
+                    lbDivide.Text = a.ToString();
                 }
                 else
                 {
-                    double a = divide1 / divide2;
-                    lbF.Text = f.ToString();
+                    MessageBox.Show("分母不可為0");
                 }
             }
-            catch
+            else
             {
                 MessageBox.Show("請輸入數字");
-                divide1=0;
-                divide2=0;
             }
 
         }

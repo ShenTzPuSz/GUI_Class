@@ -36,9 +36,10 @@ namespace N09110016
             form.Show(this);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnTryCatch_Click(object sender, EventArgs e)
         {
-
+            Form form = new FormTryCatch();
+            form.Show(this);
         }
     }
 }
