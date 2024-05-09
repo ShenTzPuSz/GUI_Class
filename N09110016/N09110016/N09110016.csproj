@@ -70,6 +70,12 @@
     <Compile Include="FormTextBox.Designer.cs">
       <DependentUpon>FormTextBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTimer.Designer.cs">
+      <DependentUpon>FormTimer.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTryCatch.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTextBox.resx">
       <DependentUpon>FormTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTimer.resx">
+      <DependentUpon>FormTimer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTryCatch.resx">
       <DependentUpon>FormTryCatch.cs</DependentUpon>

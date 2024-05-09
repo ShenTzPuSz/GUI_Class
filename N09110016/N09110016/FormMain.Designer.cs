@@ -36,6 +36,8 @@
             this.btnTextBox = new System.Windows.Forms.Button();
             this.btnMidterm = new System.Windows.Forms.Button();
             this.btnTryCatch = new System.Windows.Forms.Button();
+            this.btnTimer = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -85,7 +87,7 @@
             // btnBMI
             // 
             this.btnBMI.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnBMI.Location = new System.Drawing.Point(12, 105);
+            this.btnBMI.Location = new System.Drawing.Point(12, 348);
             this.btnBMI.Name = "btnBMI";
             this.btnBMI.Size = new System.Drawing.Size(120, 90);
             this.btnBMI.TabIndex = 4;
@@ -125,11 +127,34 @@
             this.btnTryCatch.UseVisualStyleBackColor = true;
             this.btnTryCatch.Click += new System.EventHandler(this.btnTryCatch_Click);
             // 
+            // btnTimer
+            // 
+            this.btnTimer.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnTimer.Location = new System.Drawing.Point(640, 12);
+            this.btnTimer.Name = "btnTimer";
+            this.btnTimer.Size = new System.Drawing.Size(120, 90);
+            this.btnTimer.TabIndex = 8;
+            this.btnTimer.Text = "Timer";
+            this.btnTimer.UseVisualStyleBackColor = true;
+            this.btnTimer.Click += new System.EventHandler(this.btnTimer_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.button1.Location = new System.Drawing.Point(12, 105);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(120, 90);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "終極密碼";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnTimer);
             this.Controls.Add(this.btnTryCatch);
             this.Controls.Add(this.btnMidterm);
             this.Controls.Add(this.btnTextBox);
@@ -154,6 +179,8 @@
         private System.Windows.Forms.Button btnTextBox;
         private System.Windows.Forms.Button btnMidterm;
         private System.Windows.Forms.Button btnTryCatch;
+        private System.Windows.Forms.Button btnTimer;
+        private System.Windows.Forms.Button button1;
     }
 }
 

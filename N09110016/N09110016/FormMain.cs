@@ -41,5 +41,11 @@ namespace N09110016
             Form form = new FormTryCatch();
             form.Show(this);
         }
+
+        private void btnTimer_Click(object sender, EventArgs e)
+        {
+            Form form = new FormTimer();
+            form.Show(this);
+        }
     }
 }
