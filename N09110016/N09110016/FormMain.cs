@@ -47,5 +47,11 @@ namespace N09110016
             Form form = new FormTimer();
             form.Show(this);
         }
+
+        private void btnFinalPassword_Click(object sender, EventArgs e)
+        {
+            Form form = new FormFinalPassword();
+            form.Show(this);
+        }
     }
 }

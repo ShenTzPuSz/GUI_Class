@@ -37,7 +37,7 @@
             this.btnMidterm = new System.Windows.Forms.Button();
             this.btnTryCatch = new System.Windows.Forms.Button();
             this.btnTimer = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnFinalPassword = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -138,22 +138,23 @@
             this.btnTimer.UseVisualStyleBackColor = true;
             this.btnTimer.Click += new System.EventHandler(this.btnTimer_Click);
             // 
-            // button1
+            // btnFinalPassword
             // 
-            this.button1.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.Location = new System.Drawing.Point(12, 105);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 90);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "終極密碼";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnFinalPassword.Font = new System.Drawing.Font("標楷體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnFinalPassword.Location = new System.Drawing.Point(12, 105);
+            this.btnFinalPassword.Name = "btnFinalPassword";
+            this.btnFinalPassword.Size = new System.Drawing.Size(120, 90);
+            this.btnFinalPassword.TabIndex = 9;
+            this.btnFinalPassword.Text = "終極密碼";
+            this.btnFinalPassword.UseVisualStyleBackColor = true;
+            this.btnFinalPassword.Click += new System.EventHandler(this.btnFinalPassword_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnFinalPassword);
             this.Controls.Add(this.btnTimer);
             this.Controls.Add(this.btnTryCatch);
             this.Controls.Add(this.btnMidterm);
@@ -180,7 +181,7 @@
         private System.Windows.Forms.Button btnMidterm;
         private System.Windows.Forms.Button btnTryCatch;
         private System.Windows.Forms.Button btnTimer;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnFinalPassword;
     }
 }
 
