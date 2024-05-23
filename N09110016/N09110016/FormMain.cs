@@ -53,5 +53,17 @@ namespace N09110016
             Form form = new FormFinalPassword();
             form.Show(this);
         }
+
+        private void btnCheckBox_Click(object sender, EventArgs e)
+        {
+            Form form = new FormCheckBox();
+            form.Show(this);
+        }
+
+        private void btnFinalExam_Click(object sender, EventArgs e)
+        {
+            Form form = new FormFinalExam();
+            form.Show(this);
+        }
     }
 }

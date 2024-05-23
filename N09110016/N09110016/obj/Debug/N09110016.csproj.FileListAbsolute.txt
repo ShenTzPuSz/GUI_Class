@@ -13,3 +13,6 @@ C:\Users\MEGAS\Desktop\GUI_Class\N09110016\N09110016\obj\Debug\N09110016.FormTex
 C:\Users\MEGAS\Desktop\GUI_Class\N09110016\N09110016\obj\Debug\N09110016.FormMidterm.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N09110016\N09110016\obj\Debug\N09110016.FormTimer.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N09110016\N09110016\obj\Debug\N09110016.FormTryCatch.resources
+C:\Users\MEGAS\Desktop\GUI_Class\N09110016\N09110016\obj\Debug\N09110016.FormCheckBox.resources
+C:\Users\MEGAS\Desktop\GUI_Class\N09110016\N09110016\obj\Debug\N09110016.FormFinalExam.resources
+C:\Users\MEGAS\Desktop\GUI_Class\N09110016\N09110016\obj\Debug\N09110016.FormFinalPassword.resources

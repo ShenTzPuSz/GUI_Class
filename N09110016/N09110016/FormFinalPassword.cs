@@ -25,17 +25,15 @@ namespace N09110016
             {
                 int input = Int32.Parse(textBox1.Text);
                 if (input == 0)
-                {
                     MessageBox.Show("恭喜答對！");
-                }
+                else if(input <= this.min)
+                    MessageBox.Show("請輸入大於"+this.min);
+                else if (input <= this.max)
+                    MessageBox.Show("請輸入小於"+this.max);
                 else if(input < this.result) 
-                {
                     this.min = input;
-                }
                 else if (input > this.result)
-                {
                     this.max = input;
-                }
                 label2.Text = string.Format("請輸入{0}~{1}之間的數值", min, max);
             }
             catch(Exception e1)
