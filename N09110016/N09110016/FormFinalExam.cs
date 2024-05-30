@@ -8,57 +8,51 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.LinkLabel;
 
 namespace N09110016
 {
     public partial class FormFinalExam : Form
     {
+        string food, drink;
         public FormFinalExam()
         {
-            InitializeComponent();
+            if (!File.Exists("OrderData.csv"))
+                File.WriteAllText("OrderData.csv", "時間,主食,飲料\n", Encoding.UTF8);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string selectedItems = "";
-            foreach(Control control in panel1.Controls) 
+            foreach (Control c in panel1.Controls)
             {
-                if(control is   CheckBox checkBox && checkBox.Checked) 
+                if (c is CheckBox)
                 {
-                    selectedItems += "主食："+checkBox.Text + "\n";
-                } 
-            }
-            foreach (Control control in panel2.Controls)
-            {
-                if (control is CheckBox checkBox && checkBox.Checked)
-                {
-                    selectedItems += "配餐："+checkBox.Text + "\n";
+                    if (((CheckBox)c).Checked == true)
+                    {
+                        food = food + ((CheckBox)c).Text + " ";
+                    }
                 }
             }
 
-            if (selectedItems !="") 
+            foreach (Control c in panel2.Controls)
             {
-                MessageBox.Show("您選擇的餐點是：\n\n" + selectedItems, "訂單內容");
-                SaveToCSV(selectedItems);
+                if (c is CheckBox)
+                {
+                    if (((CheckBox)c).Checked == true)
+                    {
+                        drink = drink + ((CheckBox)c).Text + " ";
+                    }
+                }
             }
-            else
-            {
-                MessageBox.Show("請選擇至少一個餐點!", "提示");
-            }
-        }
-        private void SaveToCSV(string content) 
-        {
-            string filePath = "menu.csv";
-            int count = 1;
-            while(File.Exists(filePath)) 
-            {
-                filePath = $"menu({count})";
-                count++;
-            }
-            File.WriteAllText(filePath, content);
-            MessageBox.Show($"以儲存為{filePath}","CSV檔案已儲存");
-        }
 
-        
+            DateTime currentDateTime = DateTime.Now;
+            string formattedDateTime = currentDateTime.ToString("yyyy/MM/dd HH:mm");
+            File.AppendAllText("OrderData.csv", formattedDateTime + "," + food + "," + drink + "\n", Encoding.UTF8);
+
+            MessageBox.Show("主食：" + food + Environment.NewLine + "飲料：" + drink);
+
+            food = string.Empty;
+            drink = string.Empty;
+        }
     }
 }
